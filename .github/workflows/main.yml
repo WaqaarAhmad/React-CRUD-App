@@ -32,4 +32,8 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
+<<<<<<< HEAD
       run: surge ./build waqar-react-crud.surge.sh  --token ${{secrets.MY_CRUDAPP_TOKEN}}
+=======
+      run: surge ./build waqar-react-crud.surge.sh  --token ${{secrets.MY_CRUDAPP_TOKEN}}
+>>>>>>> 257bd74ca4a88d37c2d1563830473167db93eae3
