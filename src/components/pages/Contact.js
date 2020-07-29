@@ -2,9 +2,14 @@ import React from 'react';
 
 const Contact = () => {
     return (
-
+        
+        
         <form>
             <div className="container">
+                <div class="row"><h1>Contact Us</h1></div>
+                <div class="row">
+                    
+                </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
