@@ -5,7 +5,7 @@ const Pagenotfound =() => {
     return(
 
         <div className = "pagnotfound">
-            <h1 className = "display-1">Page Not Found</h1>
+            <h1 className = "display-1">GigaMall Closed Till Monday</h1>
         </div>
     );
 };

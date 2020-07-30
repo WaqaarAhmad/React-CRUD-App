@@ -11,16 +11,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component= {Pagenotfound} />
-          </Switch>
-
-      </Router>
+      <Home />
 
 
     </div>
